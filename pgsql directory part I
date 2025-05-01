@@ -1,0 +1,12 @@
+pgsql
+initial directory shape
+
+/ai-lab
+│
+├── Dockerfile
+├── requirements.txt
+├── /api
+│   └── main.py         # Your FastAPI logic
+├── /models
+│   └── gpt2_infer.py   # Hugging Face pipeline wrapper
+└── README.md           # Just because you’re classy like that
